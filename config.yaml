@@ -1,0 +1,18 @@
+llm:
+  provider: "openai"   # openai / mock
+  model: "gpt-4o"
+  api_key: "your-api-key"
+  base_url: ""
+
+user:
+  name: "张阿姨"
+  age: 72
+  history: "高血压10年，曾因头晕住院"
+  family:
+    孙女: "朵朵"
+    儿子: "李明"
+  habits: "爱听京剧"
+
+alert:
+  phone: "13800000000"
+  method: "sms"  # sms or call
